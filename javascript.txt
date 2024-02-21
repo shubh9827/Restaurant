@@ -1,0 +1,32 @@
+         -------------------these are the notes for javascript---------------------------------
+->in strings if we add the numbers  with the strings for ex:- "string"+ 100
+output:- string100
+or 
+'100'+'40'
+output:-10040
+
+->now here is a new thing in which we will convert the string into numbers and numbers into strings
+for ex:- let numberString='123'
+let convertedNumber=Number(numberString);
+output:-123
+now, from number to String 
+ex:- let number=123;
+let convertString= number.toString();
+output:-'123'
+------template literals-----
+-> template literals are basically something which is been put inside the ` ` aka astrix and inside this for the variables
+we use `${welcome + hello} here we can write or add anything here and also we can do operations as well ${convertedNumber}` here welcome and hello and converteNumbers are string variables.
+- this used so as to we don't need to think about the inner quotes and + signs and we can do operations and can write our strings in multiple lines.
+-> the grouping operator in javascript which is () what it does is inside this anything is taken as a expression and have highest precedence over other operators.
+-> null coleascing operator is used in a way as follows:-
+let student={
+  
+    age:null
+};
+console.warn(student.name ?? 'unknown');
+console.warn(student.age ?? 24);
+yahan par null coelescing operator jo he keval undefined aur null values kko hi check karta he otherwise nahi karta he agar apan code me empty string aur age me 0 jo ki boolean value false maani jati he par kaam nahi karega.
+basically ye null or undefined values ko check karne kliye hi kaam aati he.
+->instace of <-
+
+ 

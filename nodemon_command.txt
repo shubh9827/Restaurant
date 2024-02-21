@@ -1,0 +1,5 @@
+commands for running the server and refreshing itself
+npm i nodemon 
+npx nodemon index.js
+task:= to make a to-do list where we can update, delete, read and add content in it.
+whats done:- installed mongodb, node.js and all the configurations done and started the server and made the functions related to get, post, delete, put and checked these functions after installing the postman. 
